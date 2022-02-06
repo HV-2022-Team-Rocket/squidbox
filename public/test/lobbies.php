@@ -1,3 +1,5 @@
+<?php session_start() ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,5 +9,8 @@
     <title>Test: lobbies</title>
 </head>
 <body>
+    <form action="../includes/lobbies.inc.php" method="get">
+        <button type="submit" name="new">New game</button>
+    </form>
 </body>
 </html>
