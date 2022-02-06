@@ -130,6 +130,25 @@ class user_handler
         exit();
     }
 
+    public static function userAddScore($amount, $score, $id, $conn)
+    {
+        $sum = $amount + $score;
+
+        $sql = "UPDATE users SET usersScore = ? WHERE usersId = ?";
+        $stmt = mysqli_stmt_init($conn->getHandle());
+
+        if (!mysqli_stmt_prepare($stmt, $sql))
+        {
+            user_handler::throwDbError();
+        }
+
+        mysqli_stmt_bind_param($stmt, "ii", $sum, $id);
+        mysqli_stmt_execute($stmt);
+
+        $result = mysqli_stmt_get_result($stmt);
+        exit();
+    }
+
     public static function loginExists($uid, $email, $conn)
     {
         $sql = "SELECT * FROM users WHERE usersUid = ? OR usersEmail = ?;";
@@ -165,6 +184,30 @@ class user_handler
         }
 
         mysqli_stmt_bind_param($stmt, "s", $userUid);
+        mysqli_stmt_execute($stmt);
+
+        $result = mysqli_stmt_get_result($stmt);
+
+        if ($row = mysqli_fetch_assoc($result))
+        {
+            return $row;
+        }
+
+        return false;
+        mysqli_stmt_close($stmt);
+    }
+
+    public static function getUser($userId)
+    {
+        $sql = "SELECT * FROM users WHERE usersId = ?;";
+        $stmt = mysqli_stmt_init($conn->getHandle());
+
+        if (!mysqli_stmt_prepare($stmt, $sql))
+        {
+            user_handler::throwDbError();
+        }
+
+        mysqli_stmt_bind_param($stmt, "i", $userId);
         mysqli_stmt_execute($stmt);
 
         $result = mysqli_stmt_get_result($stmt);

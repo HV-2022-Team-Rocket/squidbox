@@ -9,7 +9,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #222;
-  padding-bottom: 50px;
+  padding-top: 100px;
 }
 
 .description{
@@ -159,20 +159,38 @@ body {
   letter-spacing: 1.2px;
 }
 
+.card-body{
+text-align: center;
+}
+
+.poem_content{
+  margin-top: 40px;
+}
 /* profile page */
 .profile {
     background-color: rgb(255, 255, 255);
     border-radius: 10px
 }
 
+.containercard{
+  position: relative;
+  justify-content: center;
+}
 .card {
     width: 350px;
     box-shadow: 0 2px 10px rgb(0, 0, 0, 0.2);
     border-radius: 10px;
     background-color: #fff;
     overflow: hidden; 
+    margin: 20px;
 }
-
+.description{
+  background-image: url('images/dan-cristian-padure-XOXMERp2LZE-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+}
 .image {
     object-fit: cover;
 }
