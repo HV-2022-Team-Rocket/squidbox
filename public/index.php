@@ -22,21 +22,14 @@
 
     <section class="container content">
       <h2 class="title" id="about">About Us</h2>
-      <p>We are Team Rocket, a group of first time hackathoners who love all things computers! As a group with
-        a diverse skill set and a wide range of experience, we know first hand how important (education?al resources?) are. 
-        (insert something about empowerment)
-        In just 24 hours with some basic knowledge and the power of the internet, 
-        we created SquidBox, a multistage PvPvE (___) game dedicated to providing a fun and engaging learning experience
-         for coders of all skill levels.	
-        
-        We can't wait to see what comes next. For the first time: We're blasting off!</p>
+      <p>Poetry is an important tool to share wisdom and express one's mind. 
+        As programmers, words prove to be a vital tool, and as with poetry it 
+        allows us to express and create art. This was the motivation behind SquidBox,
+         in which users can view a feed of original poems, submitted in by other users.
+          We aim to create a positive environment catered to mental health issues and a
+           community founded on empowering others through poetry and creativity.</p>
 
-      <h3 class="title" id="puzzles">Challenges</h3>
-      <p>The SquidBox is an arena where (noun) compete against other (noun) in multi-stage puzzle games! Our hand-crafted
-        challenges will surely satisfy your thirst for (__). (insert something about how the challenges work + no worries
-        if you fail, just try again.)
-        Climb your way up the leaderboards and take your place --amogushahalmaosussybaka-- among the best!
-        </p>
+      
     </section>
 
     <script src="script.js"></script>
