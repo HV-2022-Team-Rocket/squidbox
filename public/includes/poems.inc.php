@@ -9,6 +9,7 @@ require_once('../../classes/poem_handler.class.php');
 if (isset($_SESSION["UserId"]))
 {
     $conn = new db_handler();
+    
     if (isset($_GET["new"]))
     {  
         poem_handler::uploadPoem($_SESSION["userId"], $_GET["newpoem"], $_GET["title"], $conn);
@@ -16,6 +17,7 @@ if (isset($_SESSION["UserId"]))
         exit();
     }
 
+    header("location: ../writer.php");
     conn->closeHandle();
 }
 
