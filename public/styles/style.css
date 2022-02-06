@@ -77,6 +77,7 @@ body {
   background-size: cover;
   background-position: bottom center;
   height: 100vh;
+  width: 100%;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -85,6 +86,7 @@ body {
   position: relative;
   margin-bottom: 20px;
   z-index: -2;
+  flex-flow: row nowrap;
 }
 
 .hero::before {
@@ -117,6 +119,40 @@ body {
 .title{
     color: #555;
 }
+.main_title {
+    position: absolute;
+    width: 480px;
+    height: 135px;
+    right: 180px;
+    top: 290px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 67px;
+  }
+  
+.text {
+    position: absolute;
+    width: 394px;
+    height: 96px;
+    right: 221px;
+    top: 403px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .link_text {
+    position: absolute;
+    width: 394px;
+    height: 96px;
+    right: 221px;
+    top: 500px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+  }
 .content p {
   color: rgb(184, 179, 179);
   line-height: 30px;
@@ -125,15 +161,20 @@ body {
 
 /* profile page */
 .profile {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px
 }
 
 .card {
-    width: 400px;
-    border: none;
+    width: 350px;
+    box-shadow: 0 2px 10px rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #fff
+    background-color: #fff;
+    overflow: hidden; 
+}
+
+.image {
+    object-fit: cover;
 }
 
 .stats {
@@ -167,3 +208,145 @@ body {
 .number3 {
     font-weight: 500
 }
+
+/* lobby css */
+.server_container{
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px white;
+    overflow: hidden;
+    width: 900px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+    height: 550px;
+    left: 325px;
+
+}
+.server_header{
+    padding-top: 20px;
+    color: white;
+    margin-left: 40%;
+}
+
+  .lobby_container {
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    top: 140px;
+    position: absolute;
+    right: 20px;
+    
+  }
+  
+  .lobby_title {
+    margin: 0;
+  }
+  
+  .subtitle {
+    display: inline-block;
+    margin: 5px 0 20px;
+    opacity: 0.8;
+  }
+  
+  .header {
+    background-color: rgb(65, 64, 64);
+    color: #fff;
+    padding: 10px 20px;
+    opacity: 0.5;
+  }
+  
+  .header input {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  
+  .header input:focus {
+    outline: none;
+  }
+  
+  .open_servers {
+    background-color: rgb(65, 64, 64);
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+    opacity: 0.5;
+  }
+  
+  .open_servers li {
+    display: flex;
+    padding: 20px;
+    color: white;
+  }
+
+  
+  .open_servers .user-info {
+    margin-left: 10px;
+  }
+  
+  .open_servers .user-info h4 {
+    margin: 0 0 10px;
+    justify-content: space-between;
+  }
+  
+  .open_servers .user-info p {
+    font-size: 12px;
+  }
+  
+  .open_servers li:not(:last-of-type) {
+    border-bottom: 1px solid black;
+  }
+  
+  .open_servers li.hide {
+    display: none;
+  }
+  
+  .user-list {
+    background-color: rgb(4, 77, 22);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .user-list li {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .user-list img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .user-list .user-info {
+    margin-left: 10px;
+  }
+  
+  .user-list .user-info h4 {
+    margin: 0 0 10px;
+  }
+  
+  .user-list .user-info p {
+    font-size: 12px;
+  }
+  
+  .user-list li:not(:last-of-type) {
+    border-bottom: 1px solid black;
+  }
+  
+  .user-list li.hide {
+    display: none;
+  }
+  

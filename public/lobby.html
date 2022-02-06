@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body class="description">
+        <nav class="nav">
+          <div class="container">
+            <h1 class="logo"><a href="./dashboard">SquidBox</a></h1>
+            <ul>
+              <li><a href="#home">Log Out</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="server_container">
+          <div class="container">
+          <div class="col-12">
+          <header class="server_header">
+            <h2>Server Rooms</h2>
+          </header>
+           </div>
+           <div class="col-12">
+          <ul id="server_rooms" class="open_servers">
+          <li> 
+            <h4 class="col-10">Server 1</h4>
+            <button type="button" class="btn btn-dark">Join Now!</button>
+          </li>
+          <li>
+            <h4 class="col-10">Server 2</h4>
+            <button type="button" class="btn btn-dark">Join Now!</button>
+          </li>  
+          <li>
+            <h4 class="col-10">Server 3</h4>
+            <button type="button" class="btn btn-dark">Join Now!</button>
+          </li>  
+          <li>
+            <h4 class="col-10">Server 4</h4>
+            <button type="button" class="btn btn-dark">Join Now!</button>
+          </li>
+          </ul>
+        </div>
+      </div>
+        </div>
+        <div class="lobby_container">
+            <header class="header">
+              <h3 class="lobby_title">Users in Lobby</h3>
+              <small class="subtitle">Waiting for game to begin!</small>
+            </header>
+      
+            <ul id="result" class="user-list">
+              <li>
+                <h3>Loading...</h3>
+              </li>
+            </ul>
+          </div>
+          <script src="script.js"></script>
+    </body>
+</html>
