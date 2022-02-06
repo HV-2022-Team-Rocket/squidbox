@@ -4,15 +4,15 @@
 
 ## Table of Contents
 <!--Table of contents-->
--[Introduction](#introduction)
--[Key Features](#key-features)
--[Preview](#preview)
--[How it works](#how-it-works)
--[Challenge Example](#challenge-example)
--[Build Process](#build-process)
--[Inspiration](#inspiration)
--[License](#license)
--[Contributors](#contributors)
+-[Introduction](#introduction) <br>
+-[Key Features](#key-features) <br>
+-[Preview](#preview) <br>
+-[How it works](#how-it-works) <br>
+-[Challenge Example](#challenge-example) <br>
+-[Build Process](#build-process) <br>
+-[Inspiration](#inspiration) <br>
+-[License](#license) <br>
+-[Contributors](#contributors) <br>
 
 ## Introduction
 <!--Introduction: goal of squidbox, inspiration, what it is-->
@@ -37,5 +37,10 @@ As we all experienced, the COVID-19 pandemic has affected many people, exasperat
 <!--Licenses-->
 ## Contributors
 <!--Links to contributors gits-->
+This project would not have been possible without the contribution of:
+-[bhoang03](https://github.com/orgs/HV-2022-Team-Rocket/people/bhoang03)
+-[Cherrise-exe](https://github.com/orgs/HV-2022-Team-Rocket/people/Cherrise-exe)
+-[dead-sloth](https://github.com/orgs/HV-2022-Team-Rocket/people/dead-sloth)
+-[hexamoonz](https://github.com/orgs/HV-2022-Team-Rocket/people/hexamoonz)
 
 
