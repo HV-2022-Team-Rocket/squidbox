@@ -7,6 +7,5 @@
     <title>Test: profile</title>
 </head>
 <body>
-    
 </body>
 </html>

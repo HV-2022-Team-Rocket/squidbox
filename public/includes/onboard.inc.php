@@ -19,7 +19,7 @@ if (isset($_POST["submit"]))
 
         else if (user_handler::loginUser($user, $conn) === true)
         {
-            header("location: ../index.phplol");
+            header("location: ../index.php");
         }
     
         else

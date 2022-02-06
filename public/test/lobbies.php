@@ -7,6 +7,5 @@
     <title>Test: lobbies</title>
 </head>
 <body>
-    
 </body>
 </html>
