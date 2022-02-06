@@ -29,9 +29,9 @@ class game_handler
         return $last_id = $conn->getHandle()->insert_id;
     }
 
-    public static function advanceGame($conn)
+    public static function advanceGame($gameId, $gameCid, $conn)
     {
-        $sql = "UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1;";
+        $sql = "UPDATE games SET gamesCid = ?, gamesBegun = ?, gamesTimer = ?, gamesPlayers = ? WHERE gamesId = ?;";
         $stmt = mysqli_stmt_init($conn->getHandle());
     
         if (!mysqli_stmt_prepare($stmt, $sql))
@@ -39,13 +39,13 @@ class game_handler
             user_handler::throwDbError();
         }
     
-        mysqli_stmt_bind_param($stmt, "iiis", 1, 0, 180, "");
+        mysqli_stmt_bind_param($stmt, "iiis", $gameCid, 1, 180, game_handler::getPlayers($gameId, true));
         mysqli_stmt_execute($stmt);
         mysqli_stmt_close($stmt);
     }
 
-    public static function submitAnswer($id, $conn)
+    public static function submitAnswer($userId, $gameId, $conn)
     {
-        
+
     }
 }
