@@ -25,7 +25,7 @@ Poetry is an important tool to share wisdom and express one's mind. As programme
 - Landing page
 ## Preview
 <!--image of site here-->
-
+![Alt text](https://github.com/HV-2022-Team-Rocket/squidbox/blob/main/public/styles/images/accountsna.JPG"Poem Submission Page")
 ## How it works
 <!--Poem logic-->
 Users can create profiles to scroll through a feed of original poetry, in addition to submitting their own poems to be added to the database, where their poems will also be featured on the feed with credit to the author.
