@@ -20,7 +20,6 @@
         <input type="password" name="pwd2"><br>
         <button type="submit" name="submit">Register</button>
     </form>
-
     <form action="../includes/onboard.inc.php" method="post">
         <label for="login">Username or email:</label>
         <input type="text" name="login"><br>
@@ -45,8 +44,12 @@
 
     form
     {
-        margin-bottom: 50px;
-        width: 300px;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 5px;
+        width: 350px;
     }
 
     button
