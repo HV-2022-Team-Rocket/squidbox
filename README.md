@@ -1,18 +1,18 @@
-<h1 align="center"> SquidBox </h1> <br>
-# [SquidBox](https://squidbox.com)
-[SquidBox] is a Poem sharing website created by [Team Rocket](https://github.com/HV-2022-Team-Rocket).
+<h1 align="center" href="https://squidbox.com"> SquidBox </h1> <br>
+
+[SquidBox](https://squidbox.com) is a Poem sharing website created by [Team Rocket](https://github.com/HV-2022-Team-Rocket).
 
 ## Table of Contents
 <!--Table of contents-->
--[Introduction](#introduction) <br>
--[Key Features](#key-features) <br>
--[Preview](#preview) <br>
--[How it works](#how-it-works) <br>
--[Challenge Example](#challenge-example) <br>
--[Build Process](#build-process) <br>
--[Inspiration](#inspiration) <br>
--[License](#license) <br>
--[Contributors](#contributors) <br>
+- [Introduction](#introduction) <br>
+- [Key Features](#key-features) <br>
+- [Preview](#preview) <br>
+- [How it works](#how-it-works) <br>
+- [Challenge Example](#challenge-example) <br>
+- [Build Process](#build-process) <br>
+- [Inspiration](#inspiration) <br>
+- [License](#license) <br>
+- [Contributors](#contributors) <br>
 
 ## Introduction
 <!--Introduction: goal of squidbox, inspiration, what it is-->
