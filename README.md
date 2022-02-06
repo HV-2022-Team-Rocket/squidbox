@@ -41,6 +41,7 @@ We used HTML, CSS, JavaScript, Apache and SQL to create SquidBox. The poems are 
 As we all experienced, the COVID-19 pandemic has affected many people, exasperating the need for mental health support. Each of us on Team Rocket know how powerful and inspirational words can be, so we decided to put words and mental health together in SquidBox.
 ## License
 <!--Licenses-->
+MIT License
 ## Contributors
 <!--Links to contributors gits-->
 This project would not have been possible without the contribution of:
