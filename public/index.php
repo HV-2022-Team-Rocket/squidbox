@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="icon" type="image/png" href="favicon.png">
-    <title>SquidBox</title>
-  </head>
-  <body class="landing">
+<?php include_once("header.php") ?>
+
+<body class="description">
     <nav class="nav">
       <div class="container">
         <h1 class="logo"><a href="./">SquidBox</a></h1>
