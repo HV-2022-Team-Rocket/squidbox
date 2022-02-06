@@ -84,7 +84,7 @@ else
         session_unset();
         session_destroy();
         
-        header("location: ../login.phpw");
+        header("location: ../login.php");
         exit();
     }
 }
